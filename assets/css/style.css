@@ -171,12 +171,12 @@ h1, h2, h3, h4, h5, h6{
 
 #header .logo {
 	font-family: 'Alegreya SC';
-	background: linear-gradient(45deg, #FF0000, #a200ff, #00ff26, #FFFF00, #00ff26, #a200ff, #FF0000);
+	background: #fff;
 	background-size: 600% 600%;
 	color: transparent;
 	-webkit-background-clip: text;
 	background-clip: text;
-	animation: rainbowAnimation 10s linear infinite;
+	/* animation: rainbowAnimation 10s linear infinite; */
 }
 
 #header .slogan{
@@ -193,11 +193,11 @@ h1, h2, h3, h4, h5, h6{
 	/* animation: rainbowAnimation 10s linear infinite; */
 }
 
-@keyframes rainbowAnimation {
+/* @keyframes rainbowAnimation {
 	0% { background-position: 100%; }
 	50% { background-position: 0%; }
 	100% { background-position: 100% 100%; }
-  }
+  } */
 
 #header .secondary-slogan{
 	font-size: 1.6em;
@@ -388,7 +388,7 @@ h1, h2, h3, h4, h5, h6{
     margin: 10px 0;
 }
 
-.popup-content .wishlist-btn {
+/* .popup-content .wishlist-btn {
     background-color: #ff4081;
     color: white;
     border: none;
@@ -400,12 +400,12 @@ h1, h2, h3, h4, h5, h6{
 
 .popup-content .wishlist-btn:hover {
     background-color: #e03570;
-}
+} */
 
-.popup-content .love-logo {
+/* .popup-content .love-logo {
     margin-right: 5px;
     color: red;
-}
+} */
 
 .close {
     position: absolute;
